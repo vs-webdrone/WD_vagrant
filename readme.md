@@ -8,7 +8,8 @@ Vagrant configuration used in WD context
 
 - Go to the project path's folder and start the vagrant box : 
 ```
-cd ~/
+git clone https://github.com/vs-webdrone/WD_vagrant.git
+cd $(basename "WD_vagrant" .git)
 vagrant up
 ```
 
